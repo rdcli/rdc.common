@@ -24,6 +24,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='rdc.common',
+    namespace_packages = ['rdc'],
     version=version,
     description="Common tools",
     long_description=long_description,
