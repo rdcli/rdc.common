@@ -1,0 +1,3 @@
+requests   # HTTP without headaches
+unidecode  # Transcoding
+blessings  # Readable console & tty detection
