@@ -1,18 +1,8 @@
 from setuptools import setup, find_packages
-from rdc.common import __version__
 
-# Human version
-version = '.'.join(map(str, __version__))
-
-# Read README file
-with open('README.rst') as readme:
-    long_description = readme.read()
-
-# Parse classifiers
-with open('classifiers.txt') as f:
-    classifiers = filter(None, map(lambda s: s.strip(), f.read().split('\n')))
-
-# Parse requirements
+with open('VERSION') as f: version = f.read()
+with open('README.rst') as f: long_description = f.read()
+with open('classifiers.txt') as f: classifiers = filter(None, map(lambda s: s.strip(), f.read().split('\n')))
 with open('requirements.txt') as f:
     install_requires = []
     for requirement in map(lambda s: s.strip(), f.read().split('\n')):
