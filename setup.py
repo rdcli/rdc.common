@@ -34,5 +34,6 @@ setup(
     download_url='https://github.com/rdcli/rdc.common/tarball/' + version,
     license='Apache License, Version 2.0',
     packages=find_packages(exclude=['ez_setup', 'example', 'test']),
+    include_package_data=True,
     install_requires=install_requires,
 )
