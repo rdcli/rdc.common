@@ -12,7 +12,7 @@ rdc.common
 Documentation
 -------------
 
-`Full documentation for rdc.etl on ReadTheDocs <http://common.rdc.li/>`_.
+*TODO* `Full documentation for rdc.common on ReadTheDocs <http://common.rdc.li/>`_.
 
 
 Running the Test Suite
@@ -33,7 +33,7 @@ Contributing
 
 I'm Romain Dorgueil.
 
-``rdc.etl`` is on `GitHub <https://github.com/rdcli/>`_.
+``rdc.common`` is on `GitHub <https://github.com/rdcli/rdc.common>`_.
 
 Get in touch, via GitHub or otherwise, if you've got something to contribute,
 it'd be most welcome!
